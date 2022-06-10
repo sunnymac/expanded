@@ -20,16 +20,16 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Expanded Demo"),
         ),
-        body: Column(
+        body: Row(
           children: [
             Container(
-             height: 80,
+            width: 80,
               color: Colors.amber,
             ),
 
             Expanded(
               child: Container(
-                height: 50,
+                
                 color: Colors.blue,
               ),
             ),
